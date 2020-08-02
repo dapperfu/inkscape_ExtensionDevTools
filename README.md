@@ -17,7 +17,6 @@ if __name__ == "__main__":
     inkscape_ExtensionDevTools.inkscape_run_debug()
 ```
 
-
 Workflow:
 
 1. Call Inkscape Extension from Inkscape.
