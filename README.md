@@ -1,6 +1,6 @@
 # inkscape ExtensionDevTools
 
-A short script developed for the development of Inkscape Extensions.
+A short script developed for the development/debugging of Inkscape Extensions.
 
 Usage:
 
@@ -12,9 +12,11 @@ Add the following before your <etxension>.run():
 
 ```
 if __name__ == "__main__":
-    import inkscape_ExtensionDevTools
-
-    inkscape_ExtensionDevTools.inkscape_run_debug()
+    try:
+        import inkscape_ExtensionDevTools
+        inkscape_ExtensionDevTools.inkscape_run_debug()
+    except:
+        pass
 ```
 
 Workflow:
