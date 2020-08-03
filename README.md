@@ -21,8 +21,15 @@ if __name__ == "__main__":
 
 Workflow:
 
-1. Call Inkscape Extension from Inkscape.
-2. Open extension folder in IDE (VSCode/Spyder/etc)
-3. Open extension in IDE & add debug points.
-3. Run ```<extension>_run.py``` in the debug folder.
+1. Call Inkscape Extension from Inkscape. See bug/deprecation warning.
+  ![](.img/inkscape_debug_abug.png)
+  
+  Inspect debug folder that debug files were generated:
+  
+  ![](.img/inkscape_dev_debug3.png)
+  
+2. Open extension folder in IDE (VSCode/Spyder/etc), add debugging.
+  ![](.img/inkscape_dev_debug4.png)
+
+3. Run ```<extension>_run.py``` from the debug folder.
 4. Debug.
