@@ -6,7 +6,7 @@ Usage:
 
 Inside of your exensions folder:
 
-    git clone https://github.com/dapperfu/inkscape_ExtensionDevTools.git
+    git clone https://github.com/dapperfu/inkscape_ExtensionDevTools.git ~/.config/inkscape/extensions
 
 Add the following before your <etxension>.run():
 
